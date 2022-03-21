@@ -11,7 +11,6 @@ class Auto {
 
     int cantidadAsientos() {
         int cont = 0;
-
         if (this.asientos != null) {
             for (Asiento asientoList: asientos) {
                 if (asientoList != null) {
