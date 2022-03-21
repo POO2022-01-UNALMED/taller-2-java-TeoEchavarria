@@ -1,4 +1,4 @@
-package main.java;
+package test;
 
 class Motor {
     int numeroCilindros;
@@ -10,7 +10,7 @@ class Motor {
     }
 
     void asignarTipo(String tipo) {
-        if (tipo == "electrico" || tipo == "gasolina") {
+        if (tipo == "gasolina" || tipo == "electrico") {
             this.tipo = tipo;
         }
     }
